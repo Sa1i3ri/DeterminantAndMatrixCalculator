@@ -1,8 +1,16 @@
+
+
 import org.junit.Assert;
 import org.junit.Assert.*;
 import org.junit.Test;
 
 public class DeterminantCalculator {
+    /**
+     * @param determinant
+     * @return integer
+     *
+     *
+     * */
 
     private static int calculateTwoDimensionDeterminant(int[][] determinant){
         int width = determinant.length;
