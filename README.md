@@ -14,7 +14,7 @@ public static int calculateCofactor(int[][] matrix,int row,int col)：计算余�
 
 public static int[][] getAdjointMatrix(int[][] matrix)：返回伴随矩阵
 
-public static void getInverseMatrix(int[][] matrix)：返回逆矩阵，由于只支持整数运算，所以会输出伴随矩阵和一个正数。将伴随矩阵和这个数相除，即为逆矩阵
+public static void getInverseMatrix(int[][] matrix)：返回逆矩阵，由于只支持整数运算，所以会输出伴随矩阵和一个整数。将伴随矩阵和这个数相除，即为逆矩阵
 
 public static void matrixAdd(int[][] matrix,int num)：矩阵和常数加法
 
